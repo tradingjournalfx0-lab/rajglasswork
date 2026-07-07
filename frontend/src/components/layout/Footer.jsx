@@ -13,7 +13,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-slate-950 text-white mt-24">
+    <footer className="bg-white text-black mt-24">
       {/* Top */}
       <div className="max-w-7xl mx-auto px-6 py-16 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 
@@ -25,14 +25,14 @@ export default function Footer() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold">GlassPro</h2>
+              <h2 className="text-2xl font-bold">Raj Glass Work</h2>
               <p className="text-gray-400 text-sm">
                 Premium Glass Solutions
               </p>
             </div>
           </div>
 
-          <p className="text-gray-400 leading-7">
+          <p className="text-black leading-7">
             We provide premium glass installation services for homes,
             offices, shops, partitions, railings, shower cubicles and
             commercial buildings.
@@ -57,7 +57,7 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-5">Our Services</h3>
 
-          <div className="space-y-2 text-gray-300">
+          <div className="space-y-2 text-black">
             <p>Toughened Glass</p>
             <p>Glass Door</p>
             <p>Office Partition</p>
@@ -75,17 +75,17 @@ export default function Footer() {
           <div className="space-y-4">
 
             <div className="flex gap-3">
-              <Phone className="text-sky-400" />
-              <span>+91 9876543210</span>
+              <Phone className="text-black" />
+              <span>+91 8726856089</span>
             </div>
 
             <div className="flex gap-3">
-              <Mail className="text-sky-400" />
+              <Mail className="text-black" />
               <span>glasspro@gmail.com</span>
             </div>
 
             <div className="flex gap-3">
-              <MapPin className="text-sky-400" />
+              <MapPin className="text-black" />
               <span>Deoria, Uttar Pradesh</span>
             </div>
 
@@ -94,12 +94,12 @@ export default function Footer() {
           {/* Social */}
           <div className="flex gap-4 mt-8">
 
-            <a
+            {/* <a
               href="#"
               className="w-11 h-11 rounded-full bg-slate-800 hover:bg-blue-600 flex items-center justify-center transition"
             >
-              <FaFacebookF />
-            </a>
+              <FaFacebook />
+            </a> */}
 
             <a
               href="#"
@@ -124,7 +124,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
 
           <p className="text-gray-400">
-            © {year} GlassPro. All Rights Reserved.
+            © {year} Raj Glass Work. All Rights Reserved.
           </p>
 
           <button

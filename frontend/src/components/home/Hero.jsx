@@ -10,18 +10,18 @@ import BackgroundGlow from "../common/BackgroundGlow";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-slate-950">
+    <section className="relative overflow-hidden bg-slate-50">
 
       {/* Background Glow */}
       <BackgroundGlow />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-slate-950/40" />
+      <div className="absolute inset-0 bg-white/10 from-slate-950 via-slate-900/80 to-slate-950/40" />
 
       {/* Main Container */}
       <div className="relative z-20 mx-auto max-w-7xl px-6">
 
-        <div className="grid min-h-screen items-center gap-16 py-28 lg:grid-cols-2">
+        <div className="grid  items-center gap-16 py-28 lg:grid-cols-2">
 
           {/* ========================= */}
           {/* LEFT SIDE */}
@@ -60,7 +60,7 @@ export default function Hero() {
               text-5xl
               font-black
               leading-tight
-              text-white
+              text-black
               sm:text-6xl
               xl:text-7xl
               "
@@ -87,11 +87,12 @@ export default function Hero() {
               className="
               mt-8
               max-w-xl
-              text-lg
+              text-black
               leading-8
               text-slate-300
               "
             >
+              <span className=" text-black">
               We design and install premium
               Toughened Glass,
               Office Partition,
@@ -100,6 +101,8 @@ export default function Hero() {
               Glass Railings and
               Spider Glazing
               with world-class finishing.
+
+              </span>
             </motion.p>
 
                         {/* CTA Buttons */}
@@ -135,7 +138,7 @@ export default function Hero() {
               </Link>
 
               <a
-                href="tel:+919999999999"
+                href="tel:+918726856089"
                 className="
                   inline-flex
                   items-center
@@ -144,15 +147,15 @@ export default function Hero() {
                   rounded-2xl
                   border
                   border-white/20
-                  bg-white/10
+                  bg-gray-100
                   px-8
                   py-4
                   font-semibold
-                  text-white
+                  text-black
                   backdrop-blur-xl
                   transition-all
                   duration-300
-                  hover:bg-white/20
+                  hover:bg-black/20
                 "
               >
                 <Phone size={20} />
@@ -160,7 +163,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/918726856089?text=Hello%20Raj%20Glasswork,"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -244,7 +247,7 @@ export default function Hero() {
             {/* Main Image */}
 
             <img
-              src="/images/hero.jpg"
+              src="/rajglasswork.png"
               alt="Glass Installation"
               className="
                 aspect-[4/5]

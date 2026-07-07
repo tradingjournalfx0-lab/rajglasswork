@@ -77,7 +77,7 @@ export default function Navbar() {
           {/* Desktop Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:+919999999999"
+              href="tel:+918726856089"
               className="flex items-center gap-2 px-4 py-2 rounded-xl bg-sky-600 text-white hover:bg-sky-700 transition"
             >
               <Phone size={18} />
@@ -85,7 +85,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/918726856089?text=Hello%20Raj%20Glasswork,"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 px-4 py-2 rounded-xl bg-green-500 text-white hover:bg-green-600 transition"
