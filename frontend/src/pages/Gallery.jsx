@@ -1,7 +1,11 @@
+import React from "react";
+import GalleryComponent from "../components/home/GalleryPreview";
+
+
 export default function Gallery() {
   return (
-    <div className="pt-32 text-center text-5xl font-bold">
-      Gallery Page
+    <div>
+      <GalleryComponent />
     </div>
   );
 }

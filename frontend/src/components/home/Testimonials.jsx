@@ -10,13 +10,13 @@ import testimonials from "../../data/testimonials";
 
 export default function Testimonials() {
   return (
-    <section className="py-24 bg-slate-950 text-white">
+    <section className="py-24 bg-white text-black">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center mb-16">
 
           <span className="uppercase tracking-[4px] text-sky-400 font-semibold">
-            Testimonials
+            Client Reviews 
           </span>
 
           <h2 className="mt-4 text-4xl md:text-5xl font-bold">
@@ -46,7 +46,7 @@ export default function Testimonials() {
 
               <motion.div
                 whileHover={{ y: -8 }}
-                className="rounded-3xl bg-slate-900 border border-slate-800 p-8 h-full"
+                className="rounded-3xl bg-white border border-slate-200 p-8 h-full"
               >
 
                 <div className="flex items-center gap-4">
@@ -83,7 +83,7 @@ export default function Testimonials() {
 
                 </div>
 
-                <p className="mt-6 leading-8 text-slate-300">
+                <p className="mt-6 leading-8 text-black/80">
                   "{item.review}"
                 </p>
 

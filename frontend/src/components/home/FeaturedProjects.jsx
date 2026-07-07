@@ -5,7 +5,7 @@ import projects from "../../data/projects";
 
 export default function FeaturedProjects() {
   return (
-    <section className="py-24 bg-slate-950 text-white">
+    <section className="py-24 bg-white text-black">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
@@ -48,7 +48,7 @@ export default function FeaturedProjects() {
                 duration: 0.5,
                 delay: index * 0.1,
               }}
-              className="group overflow-hidden rounded-3xl bg-slate-900"
+              className="group overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-100"
             >
 
               <div className="relative overflow-hidden">

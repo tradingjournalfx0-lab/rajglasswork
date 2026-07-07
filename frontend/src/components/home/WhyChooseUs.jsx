@@ -91,7 +91,7 @@ export default function WhyChooseUs() {
           className="relative"
         >
           <img
-            src="/images/why-choose-us.jpg"
+            src="/rajglasswork.png"
             alt="Glass Installation"
             className="rounded-3xl object-cover w-full h-[650px] shadow-2xl"
           />
@@ -99,7 +99,7 @@ export default function WhyChooseUs() {
           {/* Floating Card */}
           <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-lg rounded-2xl shadow-xl p-6 w-64">
             <h3 className="text-5xl font-bold text-sky-600">
-              12+
+              4+
             </h3>
 
             <p className="mt-2 text-slate-700 font-medium">
