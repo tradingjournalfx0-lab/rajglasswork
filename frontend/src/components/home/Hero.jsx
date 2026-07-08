@@ -16,7 +16,7 @@ export default function Hero() {
       <BackgroundGlow />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-white/10 from-slate-950 via-slate-900/80 to-slate-950/40" />
+      <div className="absolute inset-0 h-full bg-white/10 from-slate-950 via-slate-900/80 to-slate-950/40" />
 
       {/* Main Container */}
       <div className="relative z-20 mx-auto max-w-7xl px-6">
