@@ -67,7 +67,7 @@ export default function MobileMenu({ open, setOpen }) {
 
             <div className="absolute bottom-8 left-6 right-6 space-y-3">
               <a
-                href="tel:+919999999999"
+                href="tel:+918726856089"
                 className="flex items-center justify-center gap-2 rounded-xl bg-sky-600 py-3 text-white font-semibold"
               >
                 <Phone size={18} />
@@ -75,7 +75,7 @@ export default function MobileMenu({ open, setOpen }) {
               </a>
 
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/918726856089"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-2 rounded-xl bg-green-500 py-3 text-white font-semibold"

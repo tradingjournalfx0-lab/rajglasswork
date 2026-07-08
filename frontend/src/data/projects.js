@@ -3,37 +3,37 @@ const projects = [
     id: 1,
     title: "Office Glass Partition",
     category: "Commercial",
-    image: "/images/projects/project1.jpg",
+    image: "/images/feature/OfficeGlassPartition.png",
   },
   {
     id: 2,
     title: "Luxury Shower Cubicle",
     category: "Bathroom",
-    image: "/images/projects/project2.jpg",
+    image: "/images/feature/LuxuryShowerCubicle.png",
   },
   {
     id: 3,
     title: "Frameless Glass Door",
     category: "Residential",
-    image: "/images/projects/project3.jpg",
+    image: "/images/feature/FramelessGlassDoor.png",
   },
   {
     id: 4,
     title: "Glass Railing",
     category: "Balcony",
-    image: "/images/projects/project4.jpg",
+    image: "/images/feature/GlassRailing.png",
   },
   {
     id: 5,
     title: "Spider Glazing",
     category: "Commercial",
-    image: "/images/projects/project5.jpg",
+    image: "/images/feature/SpiderGlazing.png",
   },
   {
     id: 6,
     title: "Modern Shop Front",
     category: "Retail",
-    image: "/images/projects/project6.jpg",
+    image: "/images/feature/ModernShopFront.png",
   },
 ];
 

@@ -198,7 +198,7 @@ export default function Hero() {
             >
               {[
                 ["1500+", "Projects"],
-                ["12+", "Years"],
+                ["4+", "Years"],
                 ["100%", "Quality"],
                 ["24/7", "Support"],
               ].map(([value, label]) => (
@@ -238,6 +238,8 @@ export default function Hero() {
               order-1
               relative
               flex
+              flex-col
+              items-center
               justify-center
               lg:order-2
               lg:justify-end
@@ -258,6 +260,25 @@ export default function Hero() {
                 shadow-[0_30px_80px_rgba(0,0,0,.45)]
               "
             />
+
+            
+               <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: .5 }}
+              className="inline-flex items-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/1 px-5 py-3 backdrop-blur-xl mt-5"
+            >
+
+               <CheckCircle2
+                size={18}
+                className="text-black"
+              /> 
+
+              <span className="text-sm font-semibold uppercase tracking-[3px] text-black">
+                "Raj Gupta – Founder & CEO"
+              </span>
+
+            </motion.div>
 
             {/* Floating Glass Card */}
 

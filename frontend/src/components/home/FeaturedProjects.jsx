@@ -59,7 +59,7 @@ export default function FeaturedProjects() {
                   className="h-80 w-full object-cover transition duration-700 group-hover:scale-110"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+                {/* <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div> */}
 
                 <span className="absolute top-5 left-5 rounded-full bg-white/20 backdrop-blur-md px-4 py-2 text-sm">
                   {project.category}

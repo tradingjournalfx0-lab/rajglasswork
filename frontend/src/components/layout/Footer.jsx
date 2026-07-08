@@ -21,7 +21,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3 mb-5">
             <div className="w-12 h-12 rounded-xl bg-sky-600 flex items-center justify-center text-2xl font-bold">
-              G
+              Raj
             </div>
 
             <div>
@@ -81,12 +81,12 @@ export default function Footer() {
 
             <div className="flex gap-3">
               <Mail className="text-black" />
-              <span>glasspro@gmail.com</span>
+              <span>@gmail.com</span>
             </div>
 
             <div className="flex gap-3">
               <MapPin className="text-black" />
-              <span>Deoria, Uttar Pradesh</span>
+              <span>41-24-57, Ganganamma Temple St, Krishnalanka, Vijayawada - 520002.</span>
             </div>
 
           </div>
