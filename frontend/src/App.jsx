@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Loader from "./components/common/Loader";
 import AppRoutes from "./routes/AppRoutes";
+import WelcomePopup from "./ads/layout/WelcomePopup";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -17,5 +18,11 @@ export default function App() {
     return <Loader />;
   }
 
-  return <AppRoutes />;
+  return (
+    <>
+      <AppRoutes />
+      <WelcomePopup />
+    </>
+  );
+
 }
