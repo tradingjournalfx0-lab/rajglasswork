@@ -20,13 +20,13 @@ export default function WelcomePopup() {
 
         {/* Heading */}
         <div className="px-6 pt-7 text-center">
-          <h2 className="text-3xl font-bold text-gray-900">
+          {/* <h2 className="text-3xl font-bold text-gray-900">
             🇮🇳 Happy Independence Day 🇮🇳
           </h2>
 
           <p className="mt-2 text-lg font-semibold text-orange-600">
             15 August 2026
-          </p>
+          </p> */}
         </div>
 
         {/* Image */}
