@@ -20,33 +20,33 @@ export default function WelcomePopup() {
 
         {/* Heading */}
         <div className="px-6 pt-7 text-center">
-          {/* <h2 className="text-3xl font-bold text-gray-900">
-            🇮🇳 Happy Independence Day 🇮🇳
+           <h2 className="text-3xl font-bold text-gray-900">
+            Welcome
           </h2>
 
           <p className="mt-2 text-lg font-semibold text-orange-600">
-            15 August 2026
-          </p> */}
+            
+          </p> 
         </div>
 
         {/* Image */}
-        <div className="mt-5">
+        {/* <div className="mt-5">
+
           <img
             src="/images/ads/raj15.jpg"
             alt="Happy Independence Day"
             className="h-auto max-h-[450px] w-full object-cover"
           />
-        </div>
+        </div> */}
 
         {/* Message */}
         <div className="px-6 py-6 text-center">
           <p className="text-lg font-semibold text-gray-800">
-            स्वतंत्रता दिवस की हार्दिक शुभकामनाएं! 🇮🇳
+            
           </p>
 
           <p className="mt-2 text-sm leading-6 text-gray-600">
-            आइए इस स्वतंत्रता दिवस पर देश की एकता, अखंडता और
-            प्रगति के लिए अपना योगदान देने का संकल्प लें।
+           
           </p>
 
           <button
